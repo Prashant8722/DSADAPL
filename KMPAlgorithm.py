@@ -13,8 +13,8 @@ def match_pattern(text, pattern):
                     offset = offset + 1
                 else:
                     break
-            if offset == pattern_length:
-                positions.append(i)
+                if offset == pattern_length:
+                    positions.append(i)
             position = 0
 
     return positions
@@ -25,7 +25,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     case_sensitive = args.case_sensitive
-    with open('PM_input.txt') as file:
+    with open('PM_input.txt','r') as file:
         lines = file.readlines()
     text = ""
     text = text.join(lines)

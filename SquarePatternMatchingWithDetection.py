@@ -24,6 +24,7 @@ class Square_Pattern:
         for position in positions:
             if position['size'] == largest:
                 print("Found Largest Square at {} ofsize {}".format(position['position'], position['size']))
+                
     def check_square(self, array):
         # print(array)
         all_one = True
@@ -35,8 +36,7 @@ class Square_Pattern:
                 break
         if not all_one:
             break
-
-        return all_one
+    return all_one
 
     def find_square(self, array, rows, cols):
         position = []

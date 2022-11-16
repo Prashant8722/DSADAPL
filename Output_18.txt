@@ -1,0 +1,14 @@
+Enter pattern for checking
+00110
+Text Length : 5
+Text Text : 133
+Initiating Normal Search
+Matched found at 7
+Matched found at 30
+Enter pattern for checking
+1010*01101
+Text Length : 10
+Text Text : 133
+Initiating Regex Search
+Matched found at 40 54
+Matched found at 46 54

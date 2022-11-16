@@ -56,7 +56,7 @@ class Square_Pattern:
      
 if __name__ == ' __main__': 
     array = [] 
-    with open('square_input.txt','rb') as file: 
+    with open('square_input.txt','r') as file: 
         lines = file.readlines()
         print(lines)
         for line in lines: 
